@@ -1,0 +1,183 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-black {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.nav-black a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.arrow {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+hr{
+    margin: 0;
+    border: 0;
+    background-color: grey;
+    height: 1px;
+}
+
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 15%;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    display: flex;   
+    margin: 0;
+    flex-grow: 0.8;
+
+
+}
+
+.search-bar input[type="search"] {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+/* Sección cuenta, carrito, ayuda */
+.user-section {
+    display: flex;
+    gap: 15px;
+}
+
+.user-section > div {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding :0 40px;
+}
+
+.user-section div:hover {
+    transform: scale(1.1); /* agranda un 1% */
+    transition: transform 0.3s ease; /* animación suave */
+}
+.justify-center {
+    justify-content:center;
+}
+
+.column a{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-item{
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+
+#nav-main1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nav-main1 .user-section .user-item span{
+    font-size: 15px;
+}
+
+#nav-main1 .bi{
+    font-size: 2rem;
+}
+
+.product-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 300px));
+    gap: 20px;
+    padding: 3rem 5rem
+
+}
+
+.product{
+    background: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;  /* alto mínimo */
+    border-color: #222;
+    margin: 20px;
+
+}
+
+.banner{
+    min-height: 400px;
+    background-color: antiquewhite;
+}
+ 
+main{
+    background-color: #FDFDFF;
+    padding: 20px 20px;
+    min-height: 2000px;
+}
+
+.item-section .item{
+    background-color: black;
+    margin: 10px 10px 10px 0px;
+    padding: 20px 20px;
+    border-radius: 100%;
+    
+
+    
+
+}
+.item-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+
+}
+
+footer{
+    background-color: #818479;
+    min-height: 600px;
+
+}
+
+footer hr {
+    background-color: #222;
+}
+
+.white{
+    color: white;
+}
+
+.text-head{
+    font-size: large;
+    font-weight:800;
+}
