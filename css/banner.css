@@ -1,0 +1,12 @@
+.banner {
+  width: 100%;
+  display: flex;
+  
+  background-color: rgb(16, 16, 15);
+}
+
+#bannerIndex {
+  width: 100%;
+  
+  
+}

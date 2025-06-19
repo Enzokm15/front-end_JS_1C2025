@@ -1,0 +1,132 @@
+.main-header {
+    position: sticky;
+    top: 0;
+    background-color: #222;
+
+
+}
+
+.button-nav{
+    display: none;
+    margin: 0.5rem;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+.nav-user a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    gap: 100px;
+    text-align: center;
+}
+
+.nav-section a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 15%;
+}
+
+#nav-main2 > div > span {
+    justify-content: center;
+}
+#nav-main1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 0.5rem;
+}
+
+#nav-main1 .user-section .user-item span{
+    font-size: 1rem;
+}
+
+
+
+.user-section {
+    display: flex;
+    gap: 15px;
+    padding: 0 1rem;
+}
+.user-section >div {
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding :0 1rem;
+}
+.search-bar .bi-search {
+    font-size: 2rem;
+}
+
+.user-item .icon {
+    font-size: 2rem;
+}
+
+
+/* Cambios para laptops medianos */
+@media (max-width: 1024px) {
+  
+}
+
+/* Cambios para tablets */
+@media (max-width: 768px) {
+  .nav-section{
+    gap: 50px;
+  }
+}
+
+/* Cambios para móviles */
+@media (max-width: 600px) {
+  .button-nav{
+    display: flex;
+  }
+  #nav-main2 {
+    flex-direction: column;
+    display: none;
+  }
+
+  #nav-main1 .ayuda,
+  #nav-main1 .logo {
+    display: none;
+  }
+
+  .user-section >div {
+    padding: 0rem;
+  }
+  .user-section{
+    gap: 0.5rem;
+  }
+
+  .user-section .icon {
+    font-size: 1rem;
+  }
+
+  .search-bar .icon{
+    font-size: 1rem;
+  }
+
+
+}
