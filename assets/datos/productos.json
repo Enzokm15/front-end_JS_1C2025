@@ -1,0 +1,41 @@
+[
+  {
+    "id":"0001",
+    "nombre": "TazaXXX",
+    "descripcion": "Tazita pos",
+    "precio": 4999.99,
+    "stock": 25,
+    "categoria": "Sanrio",
+    "imagenes": [
+      "https://ejemplo.com/img/auriculares1.jpg"
+    ],
+    "disponible": true,
+    "esDestacado": false
+  },
+  {
+    "id": "0002",
+    "nombre": "",
+    "descripcion": "Reloj inteligente con monitoreo de ritmo cardíaco",
+    "precio": 7999.50,
+    "stock": 15,
+    "categoria": "Comic",
+    "imagenes": [
+      ""
+    ],
+    "disponible": true,
+    "esDestacado": true
+  },
+  {
+    "id": 103,
+    "nombre": "figura",
+    "descripcion": "Mochila resistente al agua para laptops de hasta 15 pulgadas",
+    "precio": 3500,
+    "stock": 40,
+    "categoria": "Accesorios",
+    "imagenes": [
+      ""
+    ],
+    "disponible": true,
+    "esDestacado": false
+  }
+]
