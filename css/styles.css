@@ -34,10 +34,6 @@ hr{
 
 .border {
     border-style: solid;
-    border-color: transparent;
-    border-radius: 20px;
-    border-width: 2px;
-    padding: 0 20px;
 }
 
 
@@ -100,8 +96,10 @@ hr{
 
 }
 
+
+
 .product{
-    background: #e0f7fa;
+    background: #4ea0aa;
     padding: 20px;
     text-align: center;
     min-height: 400px;  /* alto mínimo */
@@ -109,6 +107,10 @@ hr{
 
 }
 
+.product .img-product {
+    background-color: black;
+    height: 85%;
+}
 
  
 main{
@@ -161,4 +163,33 @@ footer hr {
 .text-head{
     font-size: large;
     font-weight:800;
+}
+
+.center{
+    justify-content: center;
+}
+
+.j-space-b{
+    justify-content: space-between;
+}
+
+.j-space-a{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.no-background {
+    background-color: transparent;
+}
+
+.border-round {
+    border-radius: 100%;
+}
+
+
+#containerProducts button{
+    padding: 0.5rem;
 }

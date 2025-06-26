@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tienda</title>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/styles.css" />
@@ -58,29 +59,29 @@
 
         <nav id="nav-main2" class="nav-section">
             
-            <a href="index.html" class="border hover-color">
+            <a href="index.html" class="border section-hover-always section">
                 
                 <span>Inicio</span>  
               
             </a>
-            <a href="pages/products.html" class="border hover-color">
+            <a href="pages/products.html" class="border hover-color section">
                     
                 <span>Productos</span>  
 
             </a>
-            <a href="pages/categorias.html" class="border hover-color">
+            <a href="pages/categorias.html" class="border hover-color section">
                 <span>Categorias</span>  
                
                 
             </a>
 
-            <a href="pages/contact.html" class="border hover-color">
+            <a href="pages/contact.html" class="border hover-color section">
    
                 <span>Contacto</span>
 
             </a>
                 
-            <a href="pages/faq.html" class="border hover-color">
+            <a href="pages/faq.html" class="border hover-color section">
 
                 <span>Preguntas Frecuentes</span>
 
@@ -100,14 +101,17 @@
 
         <div id="containerProducts" class="product-grid-container">
 
-            <div class="column">
-                <img src="" alt="">
-                <span>"Nombre" </span>   
-                <div class="arrow">
+            <div id="idproduct" class="column product">
+                <div class="img-product">
+                   <img src="" alt=""> 
+                </div>
+                
+                <span class="center">"Nombre" </span>   
+                <div class="arrow j-space-a align-center ">
 
                     <span>"Precio"</span>
 
-                    <button>
+                    <button class="no-background border-round " onclick="addCart('id')">
                         <i class="bi bi-cart-plus-fill"></i>
                         
                     </button>

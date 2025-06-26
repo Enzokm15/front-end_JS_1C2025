@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   gap: 5vw;
-  padding: 1rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .user-item .icon {
@@ -41,16 +41,28 @@
 
 
 
+
+
+#nav-main2{
+  display: flex;
+}
+#nav-main2 > div > span {
+    justify-content: center;
+}
+#nav-main1{
+  padding: 1rem 0px;
+ 
+}
+
+#nav-main1 .user-section .user-item span{
+  font-size: 1rem;
+}
+
 .nav-user a{
   text-decoration: none;
   color: white;
 
 }
-
-#nav-main2{
-  display: flex;
-}
-
 .nav-section {
   display: flex;
   align-items: center;
@@ -64,10 +76,29 @@
 
 .nav-section a {
   text-decoration: none;
-  color: white;
+
 
 
 }
+
+.nav-section .border {
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 20px;
+  border-width: 2px;
+  padding: 0.4rem 1.5rem;
+}
+
+.nav-section .hover-color:hover{
+  color: rgb(243, 236, 98);
+}
+.nav-section .section:hover{
+  transform: scale(1.08);
+  transition: transform 0.3 ease;
+}
+
+
+
 .header .logo {
   display: flex;
   justify-content: center;
@@ -76,20 +107,12 @@
   width: 15%;
 }
 
-#nav-main2 > div > span {
-    justify-content: center;
-}
-#nav-main1{
-  padding: 20px 0px;
- 
-}
 
-#nav-main1 .user-section .user-item span{
-    font-size: 1rem;
-}
 
-.hover-color:hover{
+
+.section-hover-always{
   background-color: rgb(88, 71, 71);
+
 }
 
 

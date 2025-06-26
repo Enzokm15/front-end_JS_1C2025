@@ -14,28 +14,32 @@
 </head>
 <body>
 
-    <header>
-        <nav id="nav-main1" class="nav-user">
-            <div class="logo">MiLogo</div>
+    <header class="main-header">
+        
+        <nav id="nav-main1" class="nav-bar">
+            <button id="button-nav1" class="button-burger hidden" onclick="toggleDisplayNone('nav-main2')">
+                <i class="bi bi-list"></i>
+            </button>
+            <div id="logoHeader" class="logo">MiLogo</div>
 
             <div class="search-bar">
                 <input type="search" placeholder="Buscar..." />
                 <button>
-                    <i class="bi bi-search"> </i>
+                    <i class="bi bi-search icon"> </i>
                 </button>
             </div>
 
-            <div class="user-section">
-                <div class="column ">
+            <div class="nav-bar " >
+                <div class="column">
                     <a class="user-item" href="help.html">
-                        <i class="bi bi-chat-square-dots"></i>
+                        <i class="bi bi-chat-square-dots icon"></i>
                         <span>Ayuda</span> 
                     </a>    
                 </div>
 
                 <div class="column">
-                    <a class="user-item" href="cart.html">
-                        <i class="bi bi-cart"></i>
+                    <a class="user-item" href="">
+                        <i class="bi bi-cart icon"></i>
                         <span>Carrito</span>  
                     </a>
                     
@@ -43,7 +47,7 @@
                 
                 <div class="column">
                     <a class="user-item" href="">
-                        <i class="bi bi-person"></i>
+                        <i class="bi bi-person icon"></i>
                         <span>Cuenta</span>  
                     </a>                  
                 </div>
@@ -52,41 +56,36 @@
         </nav>
         <hr>
 
-        <nav class="nav-section ">
+        <nav id="nav-main2" class="nav-section">
             
-            <div>
+            <a href="../index.html" class="border section-hover-always section">
                 
-                <a href="../index.html">
-                    <span>Inicio</span>  
-                </a>
-            </div>
-            <div>
-                <a href="products.html">
+                <span>Inicio</span>  
+              
+            </a>
+            <a href="products.html" class="border hover-color section">
                     
-                    <span>Productos</span>  
-                </a>
-                
+                <span>Productos</span>  
 
-            </div>
-            <div>
-                <a href="categorias.html">
-                    <span>Categorias</span>  
-                </a>
+            </a>
+            <a href="categorias.html" class="border hover-color section">
+                <span>Categorias</span>  
+               
                 
-            </div>
+            </a>
 
-            <div>
-                <a href="contact.html">
-                    <span>Contacto</span>
-                </a>
-            </div>
+            <a href="contact.html" class="border hover-color section">
+   
+                <span>Contacto</span>
+
+            </a>
                 
-            <div>
-                <a href="faq.html">
-                    <span>Preguntas Frecuentes</span>
-                </a>
-            </div>
-           
+            <a href="faq.html" class="border hover-color section">
+
+                <span>Preguntas Frecuentes</span>
+
+            </a>
+
 
         </nav>
 
