@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Tienda</title>
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/banner.css">
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/faq.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-</head>
+      <script src="../js/header.js" type="module" defer></script>
 </head>
 <body>
 
@@ -39,6 +39,7 @@
                 <div class="column">
                     <a class="user-item" href="">
                         <i class="bi bi-cart icon"></i>
+                        <span id="counter" class="badge">0</span>
                         <span>Carrito</span>  
                     </a>
                     
@@ -93,13 +94,13 @@
     <main>
 
         
-        <form action="https://formspree.io/f/myzwqppw" method="POST">
-            <label>
-                Your email:
+        <form  action="https://formspree.io/f/myzwqppw" method="POST">
+            <label >
+                <span>email </span>
                 <input type="email" name="email">
             </label>
             <label>
-                Your message:
+                <span>Tu mensaje o problema</span>
                 <textarea name="message"></textarea>
             </label>
             <!-- your other form fields go here -->

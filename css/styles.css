@@ -18,7 +18,7 @@ a{
 
 }
 
-.column {
+.column{
     display: flex;
     flex-direction: column;
 }
@@ -80,6 +80,7 @@ hr{
     justify-content: center;
     align-items: center;
     padding: 2%;
+    position: relative;
 
 }
 
@@ -99,17 +100,22 @@ hr{
 
 
 .product{
-    background: #4ea0aa;
+    background: #c8cbcc;
     padding: 20px;
     text-align: center;
-    min-height: 400px;  /* alto mínimo */
+    min-height: 40px;  /* alto mínimo */
+    max-height: 400px;
     border-color: #222;
 
 }
 
 .product .img-product {
-    background-color: black;
+    background-color: rgb(233, 233, 233);
     height: 85%;
+    width: 100%;
+    object-fit: contain;
+
+
 }
 
  
@@ -191,8 +197,23 @@ footer hr {
 
 
 #containerProducts button{
-    padding: 0.5rem;
+    padding: 0.8rem;
+    border: 0px;
+    background-color: #222;
+
 }
+#containerProducts button:hover{
+    cursor: pointer;
+}
+
+
+#containerProducts .column{
+    gap: 20px;
+}
+#containerProducts .icon{
+    font-size: 1.3rem;
+}
+
 
 .mensajeAddCart{
   position: fixed;
@@ -212,6 +233,21 @@ footer hr {
   font-family: sans-serif;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: rgb(46, 192, 221);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 100%;
+  line-height: 1;
+  min-width: 20px;
+  text-align: center;
+}
+
 
 @keyframes fadein {
   from { opacity: 0; transform: translateY(-20px); }
